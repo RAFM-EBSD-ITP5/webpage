@@ -1,0 +1,76 @@
+body {
+    margin-inline: 50px;
+   background-color: #efe6ff;
+  font-family:source serif;
+  Border-inline: 2px dashed purple;
+  border-spacing: 15px
+
+}
+
+
+h1 {
+  margin-inline: 50px;
+  color: #5d03da;
+}
+
+
+p {
+ margin-inline: 50px;
+ color: #5d03da;
+}
+
+
+label {
+  margin-inline: 50px;
+  color: #8b4df7;
+  font-size: 20px;
+
+}
+
+Input {
+	color: #8b4df7;
+  margin-inline: 50px;
+  font-family:source serif;
+  font-size: 20px;
+
+
+}
+
+h3{
+  margin-inline: 50px;
+  color: #8b4df7
+}
+
+
+h4{
+  margin-inline: 10px;
+  color: #8b4df7
+}
+
+
+.imagebox {
+  width: 300px;
+  margin-inline: 50px;
+  border: 2px solid  #5d03da;
+  border-style: dashed;
+  align-items:center;
+  text-align:center
+  padding: 30px;
+  margin-left:15vw;
+}
+
+.result{
+text-align:center;
+box-sizing: border-box;
+width: 170px; 
+height:70px;
+padding: 20px;
+border: 7px solid #5d03da ;
+margin-left:25vw;
+border-style: double;}
+
+.uploadbutton{
+background-color:#8b4df7;
+color:#efe6ff;
+outline:2px solid grey;
+outline-style: outset;'}
