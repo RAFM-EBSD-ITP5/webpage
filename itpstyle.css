@@ -86,6 +86,7 @@ outline-style: outset;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 #imgview{
@@ -100,6 +101,9 @@ outline-style: outset;
   display: flex;
   align-items: center;
   justify-content: center;
+  
+
+
 }
 
 

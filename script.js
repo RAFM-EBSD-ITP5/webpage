@@ -1,6 +1,5 @@
 const inputImg= document.getElementById("inputimg");
 const imgView= document.getElementById("imgview");
-const downloadImg = document.getElementById("downloadImage");
 
 /* change= when change happens will display on webpage*/
 inputImg.addEventListener("change",uploadImage);
@@ -17,9 +16,9 @@ function uploadImage(){
 	imgView.style.backgroundImage=`url(${imgLink})`;
 	imgView.textContent="";
 	imgView.style.border=0;
-}
-function downloadImage(){
-  downloadImg.href = `url(${imgLink})`;
-  downloadImg.download = inputImg.file.name;
-}
 
+	const downloadImg = document.getElementById("downloadImage");
+	downloadImg.href = imgLink;
+	downloadImg.download = "deltaferriteimage.png";
+	downloadImg.hidden = false;
+	}
