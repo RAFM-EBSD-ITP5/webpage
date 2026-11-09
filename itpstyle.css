@@ -1,10 +1,16 @@
-
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 body {
     margin-inline: 50px;
    background-color: #efe6ff;
   font-family:source serif;
   Border-inline: 2px dashed purple;
-  border-spacing: 15px
+  border-spacing: 15px;
+  
 
 }
 
@@ -30,10 +36,8 @@ label {
 
 Input {
 	color: #8b4df7;
-  margin-inline: 50px;
   font-family:source serif;
   font-size: 20px;
-
 
 }
 
@@ -55,8 +59,8 @@ justify-content: center;
 text-align:center;
 width: 130px; 
 height:70px;
-padding: 5px;
-border: 7px solid #5d03da ;
+padding: 4px;
+border: 5px solid #5d03da ;
 border-style: double;}
 
 .uploadbutton{
@@ -65,15 +69,9 @@ background-color:#8b4df7;
 color:#efe6ff;
 outline:2px solid grey;
 outline-style: outset;
-margin-inline:37%;
 }
 
-.main{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-}
 
 /* # used for id */
 
@@ -84,8 +82,10 @@ margin-inline:37%;
   background: #fff;
   text-align: center;
   border-radius: 20px;
-  border: 2px dashed #5d03da;;
-
+  border: 2px dashed #5d03da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #imgview{
@@ -97,9 +97,9 @@ margin-inline:37%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -108,4 +108,6 @@ margin-inline:37%;
   margin-top: 25px;
   background-position: center;
   background-size: contain;
+  align-items: center;
+  justify-content: center;
 }
