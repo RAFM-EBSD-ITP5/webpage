@@ -9,21 +9,23 @@
   </head>
   <body>
  <div class="main">
+    
     <label for="inputimg" id="Imgarea">
       <input type="file" accept="image/*" id="inputimg" hidden>
       <div id="imgview"> 
         <p class="uploadbutton">Upload image</p>
       </div>
     </label>
+  
   </div> 
   <br> 
   <div class="main">
-       <h4><a id="downloadImage" >Find Ferrite Percentage</a> </h4>
+      <h4><a id="downloadImage" onclick="sendImagetobackend()"> Find Ferrite Percentage</a> </h4>
   </div>
   <div class="main">
         <h3 class='result' > Result: xx%</h3>
    </div>
 
- <script src="script.js"></script>
+ <script src="itpscript change to post.js"></script>
 </body>
 </html>
