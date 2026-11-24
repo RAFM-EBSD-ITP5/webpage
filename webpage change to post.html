@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <img src='logos.png' style='width:20%;float: right;margin-top: 4px;' >   
+    <h3 style='color: black;font-size: 12px;margin-inline:25px'>ITP Group 5 - Image Analysis of Delta Ferrite Content of Electron Beam Welded RAFM Steel</h3>
+    <h1 class="title"> <u>Delta Ferrite Percentage Cover </u> </h1>
+    <link rel='stylesheet' href='itpstyle.css' />
+    <br>
+  </head>
+  <body>
+ <div class="main">
+    
+    <label for="inputimg" id="Imgarea">
+      <input type="file" accept="image/*" id="inputimg" hidden>
+      <div id="imgview"> 
+        <p class="uploadbutton">Upload image</p>
+      </div>
+    </label>
+  </div> 
+  <br> 
+  <div class="main">
+      <h4><a id="downloadImage" onclick="sendImagetobackend()"> Find Ferrite Percentage</a> </h4>
+  </div>
+  <div class="main">
+        <h3 class='result' > Result: xx%</h3>
+   </div>
+
+ <script src="itpscript change to post.js"></script>
+</body>
+</html>
