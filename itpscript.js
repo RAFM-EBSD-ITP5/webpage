@@ -34,7 +34,7 @@ async function sendImagetobackend(deltaferriteimage) {
 	const imageinfotosend = new FormData();
 	imageinfotosend.append("file", deltaferriteimage, "deltaferriteimage.tif");
 
-	const response = await fetch("https://sample-backend-988589084835.europe-west1.run.app", {
+	const response = await fetch("https://sample-backend-988589084835.europe-west1.run.app/img_inbox", {
 		method: "POST",
 		body: imageinfotosend,
 	});
